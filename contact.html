@@ -11,11 +11,16 @@
     <h1>Contact Details</h1>
     <p>My email</p>
     <p>My phone number</p>
+    <hr>
 
-    <form class="" action="index.html" method="post"> <!-- form creation -->
+    <form action="mailto:diogokaster@gmail.com" method="post" enctype="text/plain"> <!-- form creation -->
         <label>Your name:</label>   <!-- tag before input -->
-        <input type="text" name="" value="">    <!-- self-closing tag where you may choose the input type att -->
-        <input type="submit" name="">
+        <input type="text" name="yourName" value=""> <br>   <!-- self-closing tag where you may choose the input type att -->
+        <label>Your email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your message:</label><br>
+        <textarea name="name" rows="8" cols="80"></textarea><br>
+        <input type="submit" name="yourMsg">
     </form>
 </body>
 </html>
