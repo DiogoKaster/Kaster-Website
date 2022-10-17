@@ -27,6 +27,13 @@ h3 {
     font-weight: bold;
 }
 
+hr {    
+    border: none;
+    border-top: dotted 10px;
+    width: 5%;
+    color: var(--color-primary)
+}
+
 body {
     margin: 0%;
     text-align: center;
@@ -61,6 +68,11 @@ body {
     row-gap: 15px;
 }
 
+.skills {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .skill-row {
     display: inline-block;
     width: 50%;
@@ -71,7 +83,7 @@ body {
 
 .contact-me{
     padding: 35px;
-    padding-top: 0;
+    padding-top: 20px;
 }
 
 a{
@@ -105,7 +117,7 @@ a{
 
 .profile p{
     width: 50%;
-    margin: 0 auto 25px auto;
+    margin: 0 auto 50px auto;
 }
 
 .computer-img{
