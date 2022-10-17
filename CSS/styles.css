@@ -27,6 +27,14 @@ h3 {
     font-weight: bold;
 }
 
+hr {    
+    border: none;
+    border-top: dotted 10px;
+    margin: 50px auto;
+    width: 5%;
+    color: var(--color-primary)
+}
+
 body {
     margin: 0%;
     text-align: center;
@@ -66,12 +74,11 @@ body {
     width: 50%;
     text-align: justify;
     line-height: 2;
-    padding: 20px;
 }
 
 .contact-me{
     padding: 35px;
-    padding-top: 0;
+    padding-top: 0px;
 }
 
 a{
@@ -105,7 +112,7 @@ a{
 
 .profile p{
     width: 50%;
-    margin: 0 auto 25px auto;
+    margin: 0 auto 50px auto;
 }
 
 .computer-img{
