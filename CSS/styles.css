@@ -30,6 +30,7 @@ h3 {
 hr {    
     border: none;
     border-top: dotted 10px;
+    margin: 50px auto;
     width: 5%;
     color: var(--color-primary)
 }
@@ -68,22 +69,16 @@ body {
     row-gap: 15px;
 }
 
-.skills {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .skill-row {
     display: inline-block;
     width: 50%;
     text-align: justify;
     line-height: 2;
-    padding: 20px;
 }
 
 .contact-me{
     padding: 35px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 a{
